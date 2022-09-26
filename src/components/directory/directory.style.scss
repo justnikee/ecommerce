@@ -1,0 +1,10 @@
+.menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &.large{
+        height: 600px;
+    }
+}
