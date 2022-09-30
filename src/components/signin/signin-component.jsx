@@ -53,8 +53,10 @@ class Signin extends React.Component{
             label='password'
             required
           /> 
-    <CunstomButton type="submit">SIGN IN</CunstomButton>
-    <CunstomButton onClick={ signInWithGoogle } >{' '}SIGN IN WITH GOOGLE{' '}</CunstomButton>
+          <div className="buttons">
+          <CunstomButton type="submit">SIGN IN</CunstomButton>
+    <CunstomButton onClick={ signInWithGoogle } isGoogleSignIn>{' '}SIGN IN WITH GOOGLE{' '}</CunstomButton>
+          </div>
                 </form>
             </div>
         )
